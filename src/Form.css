@@ -1,0 +1,27 @@
+.Form {
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .Form h1 {
+    text-align: center;
+  }
+  
+  .Form .form-data {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+  }
+  
+  .Form .form-data label {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+    text-align: right;
+  }
+  
+  .Form .form-data input:not([type="submit"]) {
+    flex-grow: 1;
+  }
+  
